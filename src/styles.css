@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    /* Primary */
+    --grayishBlue: hsl(237, 18%, 59%);
+    --softRed: hsl(345, 95%, 68%);
+
+    /* Neutral */
+    --darkDesaturatedBlue: hsl(236, 21%, 26%);
+    --veryDarkBlue: hsl(235, 16%, 14%);
+    --veryDarkMbBlue: hsl(234, 17%, 12%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Red Hat Text', sans-serif;
+    overflow-x: hidden;
+}
+
+.main-area {
+    background-color: var(--darkDesaturatedBlue);
+    height: 100vh;
+    width: 100%;
+}
+
+.image-background1 {
+    background-image: url("./assets/images/bg-stars.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    /* border: 1px solid yellow; */
+}
+
+.image-background2 {
+    background-image: url("./assets/images/pattern-hills.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
+    background-position: bottom;
+    z-index: 1;
+    /* border: 1px solid gray; */
+}
