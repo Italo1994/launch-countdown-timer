@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CountdownAreaComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    let days: number = 0,
+        hours: number = 0,
+        minutes: number,
+        seconds: number;
+
+    function getTime() {
+
+    }
+  }
 
   ngOnInit(): void {
   }
